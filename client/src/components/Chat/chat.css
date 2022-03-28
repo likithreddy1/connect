@@ -1,0 +1,175 @@
+.ChatUI{
+    display: flex;
+}
+.searchComponent{
+    flex: 2;
+}
+.textComponent{
+    flex: 6.5;
+}
+.textComponent span{
+    background-color: white;
+    height: 90vh;
+    font-size: 90px;
+    color: #a6afb5;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor:not-allowed;
+}
+.searchwrap,.textwrap,.onlinewrap{
+    padding: 10px;
+}
+.searchwrap div{
+    display: flex;
+    align-items: center;
+}
+.listStyle{
+    font-size:13px;
+    padding:'15px';
+    margin-left:"16px";
+    cursor:'pointer';
+    width:'71%'
+}
+.searchwrap div button{
+    border: none;
+    background-color: green;
+    margin-top: 3px;
+    padding:2px 10px;
+    height: 25px;
+    color: white;
+}
+.searchinput{
+    width: 70%;
+    margin: 5px;
+    border: none;
+    margin-bottom: 0;
+    /* border-bottom: 1px solid #273239; */
+    /* box-shadow: 0 0 3px #4f5f68; */
+    border-radius: 2px;
+}
+.friend-list{
+    width: 100%;
+    display: flex;
+    margin: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.friend-list:hover{
+    background-color: #a6afb5;
+}
+.friend-list div{
+    display: flex;
+    align-items: center;
+}
+.rightbarOnline{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: limegreen;
+     position: absolute;
+    top: -2px;
+    right: -1px;
+    border: 2px solid white;
+}
+.friend-list img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 7px;
+    object-fit: cover;
+}
+.header{
+    width: 100%;
+    background-color: #4f5f68;
+    color: white;
+    height: 45px;
+    display: flex;
+}
+.link{
+    display:flex;
+    color:white;
+  
+}
+.link:hover{
+    background-color:#4f5f68
+}
+.headerimg{
+    width: 32px;height: 32px;border-radius: 50%;
+    margin: 3px 0 2px 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.header p{
+    padding:10px;
+    padding-left: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.textwrap{
+    height: 64vh;
+    background-color: white;
+    overflow-y: scroll;
+}
+.messagebox button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    margin:0 20px;
+    cursor: pointer;
+
+}
+.messagebox textarea{
+    outline: none;
+    border: none;
+    padding:10px
+          
+}
+.messagebox{
+    display: flex;
+    align-items: center;
+}
+.dataResult {
+    margin-top: -10px;
+    position: absolute;
+    z-index: 999;
+    top: 59px;
+    left: 391px;
+    width: 325px;
+    height: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  
+  .dataResult::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .dataResult .dataItem {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+  }
+  .dataItem:hover{
+      background-color: rgb(124, 136, 136);
+  }
+  .dataItem p {
+    margin-left: 10px;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: lightgrey;
+  }

@@ -1,0 +1,159 @@
+.backgroundImg{
+    text-align: center;
+    position: relative;
+}
+.profilepicWrapper{
+    width: 100vw;
+    height: 52.5vh;
+    background-color: white;
+    box-shadow: 0px 15px 10px -15px #111;  
+}
+.coverUpload{
+    position: absolute;
+    top:35vh;
+    left:157vh;
+    cursor: pointer;
+}
+.btnupload{
+    padding: 10px;
+    cursor: pointer;
+
+}
+.profilePic{
+width: 25vh;
+height:25vh;
+border-radius: 50%;
+position:absolute;
+top: 37vh;
+left: 90vh;
+object-fit: cover;
+/* border: 0.7vh solid white; */
+}
+.profilePic img{
+    
+}
+.profileName p{
+    font-size: 20px;
+}
+.friendsCount{
+    color: grey;
+    cursor: pointer;
+}
+.friendsCount:hover{
+  text-decoration: underline;
+}
+.background{
+    width: 70vw;
+    height: 40vh;
+    object-fit:fill;
+    /* border-radius:0 0 10px 10px; */
+}
+.titleandmsg{
+    display: flex;
+    width: 70vw;
+    
+    justify-content: space-between;
+
+}
+.msgbtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2d3338;
+    color:#ffffff;
+    width: 20vh;
+    margin-top: 8px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.profileOptions{
+    background-color: #ffffff;
+    box-shadow: 0px 15px 10px -15px #111;  
+    display: flex;
+    justify-content: center;
+}
+.profileOptionsList{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.profileOptionsListItems{
+    color: #909194;
+    font-size: 17px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.ullist{
+width: 70vw;
+}
+.profileOptionsListItems:hover{
+    background-color: #F2F2F2;
+}
+.profileFeed{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.introproflie{
+    width: 25vw;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px; 
+} 
+.introElement{
+    display: flex;
+    align-items: center;
+   
+    padding: 10px;
+}
+.friendproflie{
+    width: 25vw;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+.introElement1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.introElement p{
+    padding: 5px;
+}
+.introIcon{
+    font-size: 25px !important;
+    color: #6a7074;
+} 
+.profileFeeddetails{
+    max-height: 90vh;
+    overflow-y:scroll;
+}
+.ProfileFeedFeed{
+    overflow-y: scroll;
+    margin-top: 8px;
+    overflow-x: hidden;
+}
+.mainFeed{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+.friendpic{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.friend{
+    margin: 0 10px 10px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}

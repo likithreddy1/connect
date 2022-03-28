@@ -1,0 +1,78 @@
+.inputdiv{
+    margin: 20px;
+    background-color: white;
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.inputdiv input{
+    width: 25vw;
+    height: 2vw;
+    /* border: 1px solid black; */
+    margin: 1vh;
+    font-size: 15px;
+    box-shadow: 0 0 3px rgb(128, 125, 125);    
+}
+.inputdiv select{
+    width: 26vw;
+    height: 3vw;
+    /* border: 1px solid black; */
+    margin: 1vh;
+    border: none;
+    box-shadow: 0 0 3px rgb(128, 125, 125);    
+    border-radius: 7px;
+    font-size: 15px;
+    outline: none;
+}
+.signin{
+    color: white;
+    font-size:3vh;
+    width: 20vw;
+    height: 2.8vw;
+    border-radius: 5px;
+    border: none;
+    background-color: #424141;
+    margin: 8px 0 15px 0px;
+}
+.logdiscription{
+display: flex;
+/* justify-content: center; */
+align-items: center;
+flex-direction: column;
+}
+.signup{
+    color: white;
+    font-size:2vh;
+    font-weight: bold;
+    padding: 2px 7px;
+    /* width: 10vw; */
+    height: 2.8vw;
+    border-radius: 5px;
+    border: none;
+    background-color: #27C75D;
+}
+.inputdiv .title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #424141;
+}
+.forgotpw{
+padding: 9px;
+}
+.loginroot{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    font-size: 10vh;
+    color: black;
+
+}

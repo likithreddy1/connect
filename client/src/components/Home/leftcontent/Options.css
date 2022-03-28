@@ -1,0 +1,43 @@
+*{
+    font-family:Verdana,sans-serif;
+}
+.feed{
+    flex: 2.3;
+    height: calc(100vh-50px);
+    overflow-y: scroll;
+    box-shadow: 0 0 5px rgb(208, 198, 198);
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+}
+.flist{
+  margin-left: 20px;
+}
+.listitems{
+    display: flex;
+    align-items: center;
+    padding: 1vh;
+    margin-left: 10px;
+    cursor: pointer;
+  
+}
+.listitems:hover{
+  background-color: lightgray;
+}
+.listitems p{
+    margin-left: 8px;
+}
+.icon{
+    color:#253037;
+    font-size: 3vh !important;
+    cursor: pointer;
+}
+.hr{
+    margin: 20px 0;
+}

@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F0F2F5;
+    overflow-x: hidden;
+} 
+
+.navbar{
+    width: 100%;
+    height:10vh;
+    background-color:#273239 ;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 0 10px rgb(169, 165, 165);
+}
+.navbarLeft{
+    flex: 3;
+    color: white;
+    margin-left: 10vh;
+    /* text-al  ign: center; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    /* font-weight: bold; */
+    font-size: larger;
+}
+.navbarMiddle{
+    flex: 3;
+}
+.navbarRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 6;
+}
+.img{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    object-fit: cover; 
+    cursor:"pointer" !important; 
+}
+.icons{
+    color: white;
+    cursor: pointer;
+    font-size: 3.5vh !important;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    background-color: white;
+    border-radius:1vh 1vh 0 0;
+}
+.navbarlinks{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    border: none;
+    width:100%;
+    border-radius: 1vh;
+    padding: 1vh;
+}
+input:focus{
+    outline: none;
+}
+.personbadge{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    top: -5px;
+    right: -5px;
+}
+.dataResult {
+    margin-top: -10px;
+    position: absolute;
+    z-index: 999;
+    top: 59px;
+    left: 391px;
+    width: 325px;
+    height: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  
+  .dataResult::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .dataResult .dataItem {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+  }
+  .dataItem p {
+    margin-left: 10px;
+  }
+.link1{
+    color: white;
+}
+.link1:hover{
+    
+    background-color:#273239
+}

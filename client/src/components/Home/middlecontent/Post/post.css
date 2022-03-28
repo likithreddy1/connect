@@ -1,0 +1,46 @@
+.textfield{
+    display: flex;
+    align-items: center;
+}
+.imgpost{
+    margin: 10px;
+    width: 7vh;
+    height: 7vh;
+    border-radius: 50%;
+}
+.textfield input{
+    font-size: 20px;
+    text-align: center;
+    padding: 2vh;
+    border-radius: 30px;
+    width: 20em;
+    background-color: #EFF1F4;
+
+}
+.post{
+    width: 40vw;
+    height: 23vh;
+    border-radius: 2vh;
+    margin: 2vh;
+    background-color: white;
+}
+.features{
+    display: flex;
+    justify-content:space-around;
+}
+.features div{
+    display: flex;
+    margin: 2.5vh;
+    align-items: center;
+}
+.features div span{
+    padding: 2px;
+}
+.sharebtn{
+    background-color: green;
+    color: white;
+    height: 25px;
+    border: none;
+    padding: 7px;
+
+}
